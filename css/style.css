@@ -34,7 +34,7 @@ nav ul li a{
     color: black;
     text-decoration: none;
 }
-nav ul li a:hover{
+nav ul li a :hover{
 color: #07A097;
 }
 #first{
@@ -224,3 +224,4 @@ list-style: none;
     font-family: "Nunito Sans", sans-serif;
 
 }
+
