@@ -1,0 +1,225 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+nav{
+position: fixed;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 18px 200px;
+    background-color: white;
+
+}
+nav img{
+    width: 11%;
+    border-radius: 90px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+ 
+}
+nav ul li {
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-top: 53px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+color: #07A097;
+}
+#first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07A097;
+}
+#first div{
+    width: 50%;
+}
+#first div img{
+  width: 50%;
+  padding-top: 180px;
+  margin-bottom: 16vh;
+  padding-left: 120px;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+#first div h3{
+    padding-top: 20px;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+
+    padding-left: 70px;
+
+    font-size: 30px;
+    font-weight: normal;
+}
+#first div h3 span{
+   font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+#seconde{
+    background-color: #F9F8F9;
+    display: flex;
+    justify-content: space-between;
+margin-top: 60px;
+}
+#seconde div{
+    width: 50%;
+    padding: 100px;
+}
+#seconde div h3{
+font-size: 40px;
+color: #07A097;
+}
+#seconde div p{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: normal;
+  line-height: 40px;
+  color: #504343;
+}
+#seconde div img {
+    width: 50%;
+    margin-left: 50px;
+}
+#thrid{
+    width: 100%;
+    background-color: #F9F8F9;
+    margin-top: 60px;
+    text-align: center;
+
+}
+#thrid h3{
+    padding-top: 60px;
+    color: #07A097;
+    font-size: 45px;
+}
+#thrid .imgess{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+margin: 100px 350px;
+}
+#thrid .imgess .one{
+    width: 50%;
+ 
+  
+}
+#thrid .imgess .one img{
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    width: 94%;
+}
+#thrid .imgess .two{
+    width: 50%;
+}
+#thrid .imgess .two img{
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+#four{
+    width: 100%;
+    background-color: #F9F8F9;
+    margin-top: 60px;
+    text-align: center;
+
+}
+#four h3{
+    padding-top: 60px;
+    color: #07A097;
+    font-size: 45px;
+}
+#four .exper{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+margin: 100px 350px;
+}
+#four .exper .one{
+    width: 50%;
+}
+#four .exper .one img{
+   width: 70vh;
+   margin-bottom: -59px;
+   padding-top: 80px;
+}
+#four .exper .two img{
+    width: 100%;
+    margin-left: 190px;
+ }
+
+
+
+#Five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07A097;
+}
+#Five .comment{
+    margin: 100px 150px;
+}
+#Five .comment h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+#Five .comment p{
+    padding-top: 20px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: #07A097 2px;
+}
+#Five .comment textarea{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 0px;
+    border-color: #07A097;
+}
+#Five .social{
+    display: flex;
+    justify-content: space-between;
+}
+#Five .social ul {
+padding-right: 300px;
+text-align: center;
+list-style: none;
+
+}
+#Five .social ul a{
+    padding-bottom: 10px;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+
+}
+#Five .social ul .instagram :hover{
+ color: red;
+ font-size: 30px;
+}
+#Five .social ul .facebook :hover{
+    color: blue;
+ font-size: 30px;
+}
+#Five .social ul h3{
+    font-weight: normal;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+}
