@@ -1,89 +1,78 @@
 *{
 padding: 0;
 margin: 0;
-}
-
-nav{
-position: fixed;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 18px 200px;
-    background-color: white;
-
-}
-nav img{
-    width: 11%;
-    border-radius: 90px;
-}
-
-nav ul{
-    list-style: none;
-    display: flex;
  
 }
-nav ul li {
-    justify-content: space-between;
-    padding-left: 30px;
-    margin-top: 53px;
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+}
+.navbar img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.navbar ul li {
+  
     font-size: 18px;
     font-weight: bold;
-    text-decoration: none;
-}
-nav ul li a{
-    color: black;
-    text-decoration: none;
-}
-nav ul li a :hover{
+ 
+} 
+.navbar ul li a:hover{
 color: #07A097;
-}
+} 
 #first{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     background-color: #07A097;
+     overflow-x: hidden;
+   
 }
-#first div{
-    width: 50%;
-}
-#first div img{
-  width: 50%;
-  padding-top: 180px;
-  margin-bottom: 16vh;
-  padding-left: 120px;
-  margin-top: 90px;
-  margin-left: 90px;
-}
-#first div h3{
-    padding-top: 20px;
+ #first .container {
+    padding-top: 100px;
+    cursor: pointer;
+ }
+
+
+ #first .container img{
+ width: 250px;
+ height: 250px;
+ margin-left: 220px;
+ margin-top: 150px;
+ border-radius: 60%;
+ margin-bottom: 220px;
+ }
+#first .container h3{
+    text-align: left;
+    padding-top: 150px;
     color: white;
     font-family: "Nunito Sans", sans-serif;
-
     padding-left: 70px;
-
     font-size: 30px;
-    font-weight: normal;
+    font-weight: normal; 
 }
-#first div h3 span{
-   font-size: 50px;
+#first .container h3 span{
+   font-size: 40px;
     color: white;
     font-weight: bold;
 }
 #seconde{
     background-color: #F9F8F9;
-    display: flex;
-    justify-content: space-between;
+  overflow-x: hidden;
 margin-top: 60px;
 }
-#seconde div{
-    width: 50%;
+#seconde .container{
     padding: 100px;
 }
-#seconde div h3{
+#seconde .container h3{
 font-size: 40px;
 color: #07A097;
 }
-#seconde div p{
+#seconde .container p{
     padding: 20px 0;
     font-size: 20px;
     font-weight: normal;
@@ -91,11 +80,17 @@ color: #07A097;
   color: #504343;
 }
 #seconde div img {
-    width: 50%;
-    margin-left: 50px;
+    width: 250px;
+     border-radius: 60%;
+
+    height: 250px;
+     margin-left: 200px;
+
+   
+    
 }
-#thrid{
-    width: 100%;
+#thrid {
+     overflow-x: hidden;
     background-color: #F9F8F9;
     margin-top: 60px;
     text-align: center;
@@ -105,81 +100,29 @@ color: #07A097;
     padding-top: 60px;
     color: #07A097;
     font-size: 45px;
+    padding-bottom: 50px;
 }
-#thrid .imgess{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-margin: 100px 350px;
-}
-#thrid .imgess .one{
-    width: 50%;
+
+#thrid img{
+    width: 80%;
  
   
 }
-#thrid .imgess .one img{
-    margin-left: 10px;
-    margin-right: 40px;
-    margin-bottom: 100px;
-    width: 94%;
-}
-#thrid .imgess .two{
-    width: 50%;
-}
-#thrid .imgess .two img{
-    width: 80%;
-    margin-left: 150px;
-    margin-bottom: 100px;
-}
-
-#four{
-    width: 100%;
-    background-color: #F9F8F9;
-    margin-top: 60px;
-    text-align: center;
-
-}
-#four h3{
-    padding-top: 60px;
-    color: #07A097;
-    font-size: 45px;
-}
-#four .exper{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-margin: 100px 350px;
-}
-#four .exper .one{
-    width: 50%;
-}
-#four .exper .one img{
-   width: 70vh;
-   margin-bottom: -59px;
-   padding-top: 80px;
-}
-#four .exper .two img{
-    width: 100%;
-    margin-left: 190px;
- }
-
-
 
 #Five{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+     overflow-x: hidden;
+ margin-top: 150px;
     background-color: #07A097;
+
 }
-#Five .comment{
-    margin: 100px 150px;
-}
-#Five .comment h1{
+
+#Five .container h1{
+    padding-top: 40px;
     color: white;
     font-size: 50px;
     font-weight: bold;
 }
-#Five .comment p{
+#Five .container p{
     padding-top: 20px;
     color: white;
     font-weight: normal;
@@ -187,41 +130,43 @@ margin: 100px 350px;
     line-height: 30px;
     text-shadow: #07A097 2px;
 }
-#Five .comment textarea{
+#Five .container input{
+   
     margin-top: 20px;
     padding: 5px;
     border-radius: 0px;
     border-color: #07A097;
+    margin-bottom: 40px;
 }
-#Five .social{
-    display: flex;
-    justify-content: space-between;
-}
-#Five .social ul {
+
+#Five .container ul {
 padding-right: 300px;
 text-align: center;
 list-style: none;
+font-size: 20px;
+padding-top: 70px;
 
 }
-#Five .social ul a{
-    padding-bottom: 10px;
+#Five .container ul a{
     color: white;
     font-family: "Nunito Sans", sans-serif;
     text-decoration: none;
-
 }
-#Five .social ul .instagram :hover{
- color: red;
+#Five .container ul li a:hover{
+    color: black;
  font-size: 30px;
-}
-#Five .social ul .facebook :hover{
-    color: blue;
- font-size: 30px;
-}
-#Five .social ul h3{
+} 
+#Five .container ul li h3{
     font-weight: normal;
     color: white;
     font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
 
 }
+#Five .container ul li h3:hover{
+ color: red;
+
+}
+
+
 
