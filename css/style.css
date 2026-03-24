@@ -4,6 +4,7 @@ margin: 0;
  
 }
 .navbar{
+    padding: 10px 30px;
     position: fixed;
     top: 0;
     right: 0;
@@ -24,7 +25,7 @@ margin: 0;
  
 } 
 .navbar ul li a:hover{
-color: #07A097;
+color: #383738;
 } 
 #first{
 
@@ -34,7 +35,6 @@ color: #07A097;
 }
  #first .container {
     padding-top: 100px;
-    
  }
 
 
@@ -56,9 +56,26 @@ color: #07A097;
     font-weight: normal; 
 }
 #first .container p span{
-   font-size: 40px;
-    color: white;
+   font-size: 35px;
+    color: black;
     font-weight: bold;
+}
+#first button{
+    text-align: center;
+        margin-left: 70px;
+        padding: 10px 18px;
+        color: #07A097;
+        border-radius: 50px;
+        border: solid 4px #07A097;
+        font-weight: bold;
+}
+#first button:hover{
+   
+        color: #F9F8F9;
+        border-radius: 50px;
+        border: solid 4px #F9F8F9;
+        font-weight: bold;
+        background-color: #07A097;
 }
 #seconde{
     background-color: #F9F8F9;
@@ -82,47 +99,137 @@ color: #07A097;
 #seconde div img {
     width: 250px;
      border-radius: 60%;
-
+margin-top: 10px;
     height: 250px;
      margin-left: 200px;
+     border: solid 3px white;
 
    
     
 }
-#thrid {
+#third {
      overflow-x: hidden;
     background-color: #F9F8F9;
     margin-top: 60px;
-    text-align: center;
+  text-align: left;
+
+  
 
 }
-#thrid h3{
+#third .card {
+  min-height: 550px;      
+      margin-bottom: 25px;
+
+}
+
+#third h3{
     padding-top: 60px;
     color: #07A097;
     font-size: 45px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
-#thrid img{
-    width: 80%;
+#third p{
+  color: #504343; 
+  text-align: left;
  
   
 }
+#third button{
+   
+        padding: 13px 10px;
+        color: white;
+        border-radius: 20px;
+        border: solid 4px;
+        font-weight: bold;
+        font-size: 10px;
+        background-color: #07A097;
+}
+#third button.bt1{
+    margin-top: 157px;
+}
+#third button.btn0{
+    margin-top: 17px;
+}
+#third button.bt2{
+    margin-top: 145px;
+}
+#third button:hover{
+   
+        color: #F9F8F9;
+        border-radius: 50px;
+        border: solid 4px #07A097;
+        font-weight: bold;
+        background-color: white;
+        color: #07A097;
+}
+#five {
+     overflow-x: hidden;
+    background-color: #F9F8F9;
+    margin-top: 60px;
+  text-align: left;
+    margin-bottom: 25px;
 
-#Five{
+  
+
+}
+#five.card {
+  min-height: 550px; 
+      margin-bottom: 25px;
+
+}
+
+#five h3{
+    padding-top: 60px;
+    color: #07A097;
+    font-size: 45px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#five p{
+  color: #504343; 
+  text-align: left;
+ 
+  
+}
+#five button{
+   
+        padding: 13px 18px;
+        color: white;
+        border-radius: 20px;
+        border: solid 4px;
+        font-weight: bold;
+        font-size: 10px;
+        background-color: #07A097;
+}
+#five img{
+    height: 200px;
+}
+#five button:hover{
+   
+        color: #F9F8F9;
+        border-radius: 50px;
+        border: solid 4px #07A097;
+        font-weight: bold;
+        background-color: white;
+        color: #07A097;
+}
+#six{
      overflow-x: hidden;
  margin-top: 150px;
     background-color: #07A097;
 
 }
 
-#Five .container h1{
+#six .container h1{
     padding-top: 40px;
     color: white;
     font-size: 50px;
     font-weight: bold;
 }
-#Five .container p{
+#six .container p{
     padding-top: 20px;
     color: white;
     font-weight: normal;
@@ -130,7 +237,7 @@ color: #07A097;
     line-height: 30px;
     text-shadow: #07A097 2px;
 }
-#Five .container input{
+#six .container input{
    
     margin-top: 20px;
     padding: 5px;
@@ -139,7 +246,7 @@ color: #07A097;
     margin-bottom: 40px;
 }
 
-#Five .container ul {
+#six .container ul {
 padding-right: 300px;
 text-align: center;
 list-style: none;
@@ -147,26 +254,20 @@ font-size: 20px;
 padding-top: 70px;
 
 }
-#Five .container ul a{
+#six .container ul a{
     color: white;
     font-family: "Nunito Sans", sans-serif;
     text-decoration: none;
 }
-#Five .container ul li a:hover{
-    color: black;
- font-size: 30px;
-} 
-#Five .container ul li h3{
+ 
+#six .container ul li h3{
     font-weight: normal;
     color: white;
     font-family: "Nunito Sans", sans-serif;
     font-size: 20px;
 
 }
-#Five .container ul li h3:hover{
- color: red;
 
-}
 
 
 
