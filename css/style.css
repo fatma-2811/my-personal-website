@@ -4,7 +4,7 @@ margin: 0;
  
 }
 .navbar{
-    padding: 10px 30px;
+    padding: 5px 30px;
     position: fixed;
     top: 0;
     right: 0;
@@ -13,7 +13,7 @@ margin: 0;
     background-color: white;
 }
 .navbar img{
-    width: 100px;
+    width: 70px;
     border-radius: 50%;
 }
 
@@ -77,6 +77,44 @@ color: #383738;
         font-weight: bold;
         background-color: #07A097;
 }
+@media (max-width: 991.19px) {
+    #first .container p{
+    padding-left: 0px;
+    font-size: 25px;
+}
+#first .container p span{
+   font-size: 30px;
+   
+}
+#first button{
+       margin-left: 0;
+        padding: 8px 15px;
+    
+}
+ #first .container img{
+ width: 220px;
+ height: 220px;
+ margin-left: 180px;
+ }
+}
+@media (max-width: 858.68px) {
+     #first .container img{
+ margin-left: 140px;
+ }
+}
+@media (max-width: 768.14px) {
+     #first .container img{
+ margin-left: 120px;
+ }
+}
+@media (max-width: 767.43px) {
+     #first .container img{
+  width: 200px;
+ height: 200px;
+ text-align: center;
+ margin: 0 0 20px 0;
+ }
+}
 #seconde{
     background-color: #F9F8F9;
   overflow-x: hidden;
@@ -99,7 +137,7 @@ color: #07A097;
 #seconde div img {
     width: 250px;
      border-radius: 60%;
-margin-top: 10px;
+margin-top: 40px;
     height: 250px;
      margin-left: 200px;
      border: solid 3px white;
@@ -107,6 +145,55 @@ margin-top: 10px;
    
     
 }
+@media (max-width: 991.19px) {
+ #seconde .container{
+    padding: 0px;
+}
+#seconde .container h3{
+margin-top: 20px;
+}
+}
+@media (max-width: 964.42px) {
+#seconde div img {
+     margin-left: 160px;
+     margin-top: 50px;
+ 
+}
+}
+@media (max-width: 862.42px) {
+#seconde div img {
+     margin-left: 130px; 
+     margin-top: 60px;
+
+}
+}
+@media (max-width: 814.16px) {
+    #seconde div img {
+     margin-left: 110px; 
+     margin-top: 70px;
+
+}
+}
+@media (max-width: 767.43px) {
+        #seconde div img {
+     margin: 0 0 20px 0;
+    }
+
+}
+@media (max-width: 585.89px) {
+    #seconde .container h3{
+margin-left: 20px;
+}
+#seconde .container p{
+margin-left: 20px;
+}
+#seconde div img{
+margin-left: 20px;
+}
+}
+
+
+
 #third {
      overflow-x: hidden;
     background-color: #F9F8F9;
@@ -145,15 +232,17 @@ margin-top: 10px;
         font-weight: bold;
         font-size: 10px;
         background-color: #07A097;
+            margin-top: 157px;
+
 }
 #third button.bt1{
-    margin-top: 157px;
+    margin-top: 170px;
 }
 #third button.btn0{
-    margin-top: 17px;
+    margin-top: 127px;
 }
 #third button.bt2{
-    margin-top: 145px;
+    margin-top: 157px;
 }
 #third button:hover{
    
@@ -164,6 +253,15 @@ margin-top: 10px;
         background-color: white;
         color: #07A097;
 }
+@media (max-width: 1109.38px) {
+#third button.btn0{
+    margin-top: 110px;
+}
+}
+
+
+
+
 #five {
      overflow-x: hidden;
     background-color: #F9F8F9;
@@ -216,6 +314,13 @@ margin-top: 10px;
         background-color: white;
         color: #07A097;
 }
+@media (max-width: 1109.38px) {
+#five .btn2{
+    margin-top: 25px;
+}
+}
+
+
 #six{
      overflow-x: hidden;
  margin-top: 150px;
@@ -267,7 +372,52 @@ padding-top: 70px;
     font-size: 20px;
 
 }
+@media (max-width: 1109.38px) {
+    #six .container ul li h3{
+    font-size: 15px;
 
+}
+    #six .container ul {
+padding-left: 250px;}
+}
+@media (max-width: 991.19px) {
+    #six .container ul {
+padding-left: 200px;
+}
+#six .container h1{
+    padding-top: 70px;
+    
+}
+
+}
+@media (max-width: 768.43px) {
+    #six .container ul {
+padding:  0;
+margin-left: -430px;
+}
+
+}
+@media (max-width: 585.89px) {
+      #six .container ul {
+       margin-right: -100px;
+      }
+}
+@media (max-width: 468.67px) {
+         #six .container ul {
+       margin-right: -300px;
+      }
+}
+@media (max-width: 301.59px) {
+    #six .container input{
+   
+    
+    padding: 2px;
+  
+}
+#six .container h1{
+font-size: 30px;    
+}
+}
 
 
 
